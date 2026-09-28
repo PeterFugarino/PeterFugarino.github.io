@@ -46,7 +46,7 @@ createPlatform(90,190,20,270)
 
 
     // TODO 3 - Create Collectables
-createCollectable("diamond", 975, 385);
+createCollectable("diamond", 975, 385, 0, 1, 350, 385, 2);
 createCollectable("steve", 1350, 210);
 createCollectable("steve", 105, 160);
 
