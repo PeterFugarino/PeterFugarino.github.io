@@ -40,9 +40,9 @@ createPlatform(1000, 260, 60, 20, "blue");
 createPlatform(1150, 350, 45, 20, "red");
 createPlatform(1300, 250, 140, 20, "blue");
 createPlatform(950, 425, 90, 20, "green");
-createFakePlatform(730, 500, 90, 20, "red");
+createBadPlatform(730, 500, 90, 20, "red");
 createPlatform(90, 190, 75, 20, "red");
-
+createPlatform(100,200,20,270)
 
 
     // TODO 3 - Create Collectables
