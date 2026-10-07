@@ -43,7 +43,7 @@ createPlatform(950, 425, 90, 20, "green");
 createBadPlatform(730, 500, 90, 20, "red");
 createPlatform(90, 190, 75, 20, "red");
 createPlatform(90,0,20,620, "blue")
-createBadPlatform(500,700,800,20, "red")
+createBadPlatform(500,750,800,20, "red")
 
     // TODO 3 - Create Collectables
 createCollectable("diamond", 975, 385, 0, 1, 950, 1030, 2);
