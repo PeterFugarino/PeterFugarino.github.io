@@ -88,9 +88,15 @@ drawCircle ();
             }
             
             // TODO 6 : YOUR CODE STARTS HERE //////////////////////
-            
-
-
+          
+            if (circles > canvas.width){
+                return circle.x
+            }
+       if (circles > canvas.height){
+        return circle.y  
+        }
+            if (circles > circle.y){
+            return canvas.height
             // YOUR TODO 6 CODE ENDS HERE //////////////////////////
         }
         
