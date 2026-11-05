@@ -95,8 +95,8 @@ drawCircle ();
        if (circles > canvas.height){
         return circle.y  
         }
-            if (circles > circle.y){
-            return canvas.height
+            if (circles < canvas.height){
+            return circle.y  
             // YOUR TODO 6 CODE ENDS HERE //////////////////////////
         }
         
