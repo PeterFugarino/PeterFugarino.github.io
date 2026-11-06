@@ -87,10 +87,16 @@ for (var i = 0; i < 50; i++) {
         it to the opposite side of the screen.
         */
         game.checkCirclePosition = function(circle) {
-
+            var top = circle.y - circle.radius
+            var bottom = circle.y - circle.radius
+            var right = circle.x - circle.radius
+            var left = circle.x - circle.radius
             // if the circle has gone past the RIGHT side of the screen then place it on the LEFT
-            if ( circle.x > canvas.width ) {
-                circle.x = 0;
+           
+           
+           
+            if ( left > canvas.width ) {
+                circle.x = -circle.radius
             }
             
             // TODO 6 : YOUR CODE STARTS HERE //////////////////////
